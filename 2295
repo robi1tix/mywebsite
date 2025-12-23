@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head> <!--место где настройки для компа и не видно для visitor как настройка шрифтa,title link for css-->
+      <link rel="stylesheet" href="style.css">  <!-- ссылка на сss-->
+      <title>hello</title>
+  </head>
+<body> <!--все что видит пользователь-->
+    <header>   <!--типа шапки страницы/блока,визуально ничего не делает-->
+      <div class="logo">
+        <img src="1ea6cdc69c03e4431b78ace3efa281-no-bg-preview (carve.photos).png" alt="Логотип"  width="150" height="70">
+      </div>  
+      <div class="menu">   <!--class connect the html with css-->
+            <a class="menuu">Danganronpa: Trigger Happy Havoc</a>   
+            <a href="#about">about</a>   
+            <a href="#characters">characters</a>      
+            <a href="https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/"class="menu-button">STEAM</a>   
+   
+        </div>   
+    </header>  
+
+  <div class="page-back">
+  </div>
+
+  <section class="hi" id="about">
+  <div class="container">
+    <h2 class="title">Danganronpa: Trigger Happy Havoc</h2>
+    <div class="content">
+      <video src="danganronpa.mp4" controls></video>
+      <div class="text">
+        <p>
+          Danganronpa: Trigger Happy Havoc is a visual novel adventure game developed and published by Spike. The first installment in the Danganronpa series, it was originally released for the PlayStation Portable in Japan in November 2010. It was ported to Android and iOS in August 2012. NIS America localized and published the game internationally on PlayStation consoles.
+      The player controls a high school student named Makoto Naegi who finds himself involved in a battle royale in Hope's Peak Academy, where the robot bear Monokuma gives the students the chance to escape from the establishment if they murder another student and are not voted as the killer in a trial. Combining elements from dating simulations and third-person shooters, the game sees Makoto interact with other students to solve "class trials" by shooting at arguments displayed on the screen.The game originated from writer Kazutaka Kodaka's idea to generate a new type of game, as he believed the original adventure games were no longer popular. As a result, he created a dark scenario that generated controversy within Spike due to the amount of violence displayed among students. Nevertheless, the company decided to develop it alongside the unique gameplay system which they thought was less derivative from other games. The cast was designed by Rui Komatsuzaki.</h4>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="characters">
+<main>
+  <div class="card-wrapper">
+    <div class="card" onclick="openCharacter('makoto')">
+      <h2>makoto naegi</h2>
+      <img src="https://i.pinimg.com/originals/71/a4/92/71a492b1f46b83cf38803de1eb2a257e.jpg" alt="makoto naegi">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+  <div class="card-wrapper">
+    <div class="card"   onclick="openCharacter('aoi')">
+      <h2>aoi asahina</h2>
+      <img src="https://static.wikia.nocookie.net/tmnt-x-pokemon/images/f/ff/Aoi-Asahina-dangan-ronpa-girls-37557062-507-600.jpg/revision/latest?cb=20171126202719" alt="aoi asahina">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+  <div class="card-wrapper">
+    <div class="card"  onclick="openCharacter('byakuya')">
+        <h2>byakuya togami</h2>
+      <img src="https://static.wikia.nocookie.net/danganronpa/images/5/58/Byakuya_Togami_Illustration.png/revision/latest?cb=20170611004044" alt="byakuya togami">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+    <div class="card-wrapper">
+    <div class="card" onclick="openCharacter('celestia')">
+        <h2>celestia ludenberg</h2>
+      <img src="https://static.wikia.nocookie.net/danganronpa/images/6/66/Celestia_Ludenberg_Illustration.png/revision/latest?cb=20250121230016" alt="celestia ludenberg">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+    <div class="card-wrapper">
+    <div class="card" onclick="openCharacter('chihiro')">
+        <h2>chihiro fujisaki</h2>
+      <img src="https://i.pinimg.com/736x/41/fa/3c/41fa3c6689abe0d2e5465c742646986b.jpg" alt="chihiro fujisaki">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+    <div class="card-wrapper">
+    <div class="card" onclick="openCharacter('junko')">
+        <h2>junko enoshima</h2>
+      <img src="https://images.steamusercontent.com/ugc/863989342440785434/0AD0E7ECAD055D5F27E4C0B8D9EAD3D763132358/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="junko enoshima">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+    <div class="card-wrapper">
+    <div class="card" onclick="openCharacter('kiyotaka')">
+        <h2>kiyotaka ishimaru</h2>
+      <img src="https://i.pinimg.com/736x/d5/2f/b7/d52fb7502459cb7618d97e17de1847e5.jpg" alt="kiyotaka ishimaru">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+    <div class="card-wrapper">
+    <div class="card" onclick="openCharacter('kyoko')">
+        <h2>kyoko kirigiri</h2>
+      <img src="https://i.pinimg.com/736x/d4/c1/86/d4c1868a265ab3a4bd42b6251fd10af3.jpg" alt="kyoko kirigiri">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+    <div class="card-wrapper">
+    <div class="card" onclick="openCharacter('leon')">
+        <h2>leon kuwata</h2>
+      <img src="https://static.wikia.nocookie.net/danganronpa/images/4/4f/Leon_Kuwata_Illustration.png/revision/latest/scale-to-width-down/1200?cb=20210509213350" alt="leon kuwata">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+    <div class="card-wrapper">
+    <div class="card"  onclick="openCharacter('mondo')">
+        <h2>mondo owada</h2>
+      <img src="https://static.wikia.nocookie.net/danganronpa/images/d/d1/Mondo_Owada_Illustration.png/revision/latest?cb=20210508214924" alt="mondo owada">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+    <div class="card-wrapper">
+    <div class="card"  onclick="openCharacter('Sakura')">
+        <h2>Sakura Ogami</h2>
+      <img src="https://images6.fanpop.com/image/photos/37300000/Sakura-Oogami-dangan-ronpa-37305129-1280-720.jpg" alt="Sakura Ogami">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+    <div class="card-wrapper">
+    <div class="card"  onclick="openCharacter('ayaka')">
+            <h2>ayaka Maizono</h2>
+      <img src="https://shikimori.one/uploads/poster/characters/63849/main_2x-4d4ca360408bcdd9be84332675aff0c9.webp" alt="Sayaka Maizono">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+    <div class="card-wrapper">
+    <div class="card"  onclick="openCharacter('Toko')">
+            <h2>Toko Fukawa</h2>
+      <img src="https://i.pinimg.com/736x/f4/c9/01/f4c901bdfb6ccfe18e81f6cca2d23cf0.jpg" alt="Toko Fukawa">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+    <div class="card-wrapper">
+    <div class="card"  onclick="openCharacter('Yasuhiro')">
+            <h2>Yasuhiro Hagakure</h2>
+      <img src="https://i.pinimg.com/736x/40/c0/54/40c054843c9667f8199aa3a17b7e5b7c.jpg" alt="Yasuhiro Hagakure">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+    <div class="card-wrapper">
+    <div class="card"  onclick="openCharacter('mukuro')">
+            <h2>mukuro ikusaba</h2>
+      <img src="https://i.pinimg.com/736x/3e/01/70/3e01708375b3ab87f630bec59da523b8.jpg" alt="mukuro ikusaba">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+    <div class="card-wrapper">
+    <div class="card"  onclick="openCharacter('hifumi')">
+            <h2>hifumi yamada</h2>
+      <img src="https://static.wikia.nocookie.net/danganronpa/images/0/07/Hifumi_Yamada_Illustration.png/revision/latest?cb=20170605023117" alt="hifumi yamada">
+      <div class="card-shine"></div>
+    </div>
+  </div>
+
+    </main>
+  </section>
+  <script>
+    function openCharacter(id) {
+    window.location.href = "character.html?id=" + id;
+  }
+  </script>
+</body>
+  </html>
+</html>
